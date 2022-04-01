@@ -1,0 +1,65 @@
+layout: sidebar
+# other options for layout is stacked, sidebar
+style: dark
+
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+# permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: stars
+  exclude:
+    archived: false
+    forks: true
+    projects:
+      - blog
+      - liamjdesmond84.github.io
+      - is-cv
+      - sas
+      
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 6
+
+social_media:
+  # github: jishanshaikh4 NOT WORKING :)
+  linkedin: liamjdesmond84
+
+  # website: https://jishanshaikh4.github.io/
+
+
+  
+  # website: http://jishanshaikh.myartsonline.com
+  # website: http://jishanshaikh.atwebpages.com/
+  # youtube: your_username
+
+posts:
+  - name: xyz
+
+topics:
+  - name: Machine Learning Papers 2021
+    web_url: https://www.github.com/jishanshaikh4/ml-papers
+    image_url: https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif
+    
+  - name: Learning R for Data Science
+    web_url: https://en.wikipedia.org/wiki/R
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Mandelbrot_Creation_Animation.gif/400px-Mandelbrot_Creation_Animation.gif
+
+  - name: Exploring TDD for Python stack
+    web_url: https://github.com/jishanshaikh4/
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/TDD_Global_Lifecycle.png/220px-TDD_Global_Lifecycle.png
+
+theme: jekyll-theme-cayman
