@@ -1,9 +1,10 @@
 #slides {
-    position: relative;
+  position: relative;
 
-  height: 757px; !important;
-  
-  height: 500px;
+
+  margin-top: -250px;
+  padding-bottom: 200px
+  height: 300px
 
 
   }
