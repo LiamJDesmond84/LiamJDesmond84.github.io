@@ -6,7 +6,7 @@ $(document).ready(function () {
     });
   
     var typed = new Typed(".typed", {
-      strings: ["Full-Stack Developer", "Technophile", "All-Around Good Guy"],
+      strings: ["Full-Stack Developer", "Sponge", "All-Around Good Guy"],
       typeSpeed: 60,
       startDelay: 900,
       showCursor: false,
