@@ -1,5 +1,11 @@
 #slides {
     position: relative;
+
+  height: 757px; !important;
+  
+  height: 500px;
+
+
   }
   #slides .slides-container {
     display: none;
