@@ -387,3 +387,9 @@ body {
     position: fixed;
     top: 0;
   }
+
+  .stuff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
