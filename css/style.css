@@ -7,19 +7,19 @@ body {
   
   .icons {
     display: flex;
-    justify-content: space-between; 
-    /* margin-left: 30px; */
-    margin: -500px 100px 80px 60px
+    justify-content: space-around; 
+    margin-left: -100px;
+    /* margin: -80px 0px 80px 40px */
     /* margin-top: -80px; */
-    /* margin-top: -40px; */
+    margin-top: -40px;
   }
 
   .icons2 {
     display: flex;
-    /* justify-content: flex-start; */
-    /* margin-left: 25px; */
-    margin: -700px 500px 80px 60px
-    /* margin-top: 20px; */
+    justify-content: flex-start;
+    margin-left: 25px;
+    margin: -80px 0px 80px 40px
+    margin-top: 20px;
   }
 
 
